@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Sticky Notes
+Comment=Simple desktop sticky notes with markdown
+Exec=python3 @PATH@/stickies.py
+Icon=stickies
+Terminal=false
+Categories=Utility;
+StartupNotify=true
