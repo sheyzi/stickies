@@ -85,9 +85,15 @@ Everything is stored in a local SQLite database:
 
 Notes, colors, sizes and open-state are saved automatically. Deleting the file resets the app (all notes gone) — keep a backup if you care.
 
-### Migrating from Plum
+### Migrating from Windows Sticky Notes
 
-If you previously used the *Plum* sticky notes app and have a `plum.sqlite` file, you can import your old notes:
+If you previously used **Microsoft Sticky Notes** on Windows, you can import your old notes. Sticky Notes stores its data in a SQLite database named `plum.sqlite` inside your Windows user profile, e.g.:
+
+```
+C:/Users/<you>/AppData/Local/Packages/Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe/LocalState
+```
+
+Copy that `plum.sqlite` into `~/.stickynote/`, then run:
 
 ```bash
 python3 ~/.local/share/stickies/import_plum.py
