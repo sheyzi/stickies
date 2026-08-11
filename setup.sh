@@ -71,7 +71,7 @@ fetch_app() {
     git clone --depth 1 "$REPO_URL" "$tmp" || die "Failed to clone $REPO_URL"
     rm -rf "$INSTALL_DIR"
     mv "$tmp" "$INSTALL_DIR"
-    chmod +x "$INSTALL_DIR/stickies.py" "$INSTALL_DIR/import_plum.py"
+    chmod +x "$INSTALL_DIR/stickies.py" "$INSTALL_DIR/import_windows_stickies.py"
 }
 
 # ---------------------------------------------------------------------------

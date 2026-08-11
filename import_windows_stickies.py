@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-time importer: migrates notes from plum.sqlite into notes.sqlite."""
+"""One-time importer: migrates Windows Sticky Notes (plum.sqlite) into notes.sqlite."""
 
 import re
 import sqlite3

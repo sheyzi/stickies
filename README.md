@@ -96,7 +96,7 @@ C:/Users/<you>/AppData/Local/Packages/Microsoft.MicrosoftStickyNotes_8wekyb3d8bb
 Copy that `plum.sqlite` into `~/.stickynote/`, then run:
 
 ```bash
-python3 ~/.local/share/stickies/import_plum.py
+python3 ~/.local/share/stickies/import_windows_stickies.py
 ```
 
 ## Uninstall
